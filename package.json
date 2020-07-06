@@ -14,7 +14,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+     "build": "babel src -d lib",
     "predeploy": "yarn build",
 		"deploy": "gh-pages -d build",
     "test": "react-scripts test",
