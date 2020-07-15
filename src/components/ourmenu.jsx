@@ -11,15 +11,15 @@ export default class Ourmenu extends Component {
                 <div className="row">
                 <div className="col-sm-4">
                 
-                    <img src="images/shareable.png" className="img-responsive" style={{width: '100%'}} alt="Image" /><br/>
+                    <img src="images/shareable.png" className="img-responsive" style={{width: '100%'}} alt="" /><br/>
                     <p>shareables</p>
                 </div>
                 <div className="col-sm-4"> 
-                <img src="images/salad.png" className="img-responsive" style={{width: '100%'}} alt="Image" /><br/>
+                <img src="images/salad.png" className="img-responsive" style={{width: '100%'}} alt="" /><br/>
                 <p>Soup & Salads</p>
                 </div>
                 <div className="col-sm-4"> 
-                    <img src="images/main.png" className="img-responsive" style={{width: '100%'}} alt="Image" /><br/>
+                    <img src="images/main.png" className="img-responsive" style={{width: '100%'}} alt="" /><br/>
                     <p>Main dishes</p>
                 </div>
                 
@@ -32,15 +32,15 @@ export default class Ourmenu extends Component {
                 <div className="row">
                 <div className="col-sm-4">
                 
-                    <img src="images/desserts.png" className="img-responsive" style={{width: '100%'}} alt="Image" /><br/>
+                    <img src="images/desserts.png" className="img-responsive" style={{width: '100%'}} alt="" /><br/>
                     <p>Desserts</p>
                 </div>
                 <div className="col-sm-4"> 
-                <img src="images/drinks.png" className="img-responsive" style={{width: '100%'}} alt="Image" /><br/>
+                <img src="images/drinks.png" className="img-responsive" style={{width: '100%'}} alt="" /><br/>
                 <p>Drinks</p>
                 </div>
                 <div className="col-sm-4"> 
-                    <img src="images/specials.png" className="img-responsive" style={{width: '100%'}} alt="Image" /><br/>
+                    <img src="images/specials.png" className="img-responsive" style={{width: '100%'}} alt="" /><br/>
                     <p>Specials</p>
                 </div>
                 

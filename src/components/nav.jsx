@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+
 
 export default class Banner extends Component {
   render() {
@@ -11,14 +13,14 @@ export default class Banner extends Component {
                 <span className="icon-bar" />
                 <span className="icon-bar" />                        
               </button>
-              <a className="navbar-brand" href="#">A la maison</a>
+              <div className="navbar-brand"><img src="images/logo.png" style={{width: '100%'}} alt="" /></div>
             </div>
             <div className="collapse navbar-collapse" id="myNavbar">
-              <ul className="nav navbar-nav">
-                <li className="active"><a href="#">Home</a></li>
-                <li><a href="#">Our story</a></li>
-                <li><a href="#">Order now</a></li>
-                <li><a href="#">Contact</a></li>
+              <ul className="nav navbar-nav nav-links">
+                <Link to="/alamaison"><li>Home</li></Link>
+                <Link to="/alamaison/story"><li>Our story</li></Link>
+                <Link to="/alamaison/contact"><li>Contact</li></Link>
+                <Link to="/alamaison/reservation"><li>Reservation</li></Link>
               </ul>
              
             </div>

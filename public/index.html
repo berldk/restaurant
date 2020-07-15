@@ -25,9 +25,13 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
-    <title>React App</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+    <title>A la maison </title>
     <style>
-      body,html{
+        body,html{
         padding-left: 5%;
         padding-right: 5%;
       }
@@ -69,8 +73,13 @@
         background-repeat: repeat;
       }
       .jumbotron{
+        height: 300px;
         background-color: #EBAE20;
         margin: 0;
+        background-image: url("images/banner.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+         background-size: cover;
       }
 
       .myfooter{
@@ -83,6 +92,44 @@
         color: white;
         padding: 1rem;
       }
+.navbar {
+  position: relative;
+  min-height: 70px;
+  margin-bottom: 0px;
+  border: 1px solid transparent;
+  border-radius: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.navbar-inverse, .nav-links a {
+  background-color: #EBAE20;
+  border-color: #EBAE20;
+  color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+    color: #ffffff;
+}
+
+.navbar-inverse .navbar-brand {
+  color:#133B32;
+  max-width: 100px;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #EBAE20; 
+    background-color: #ffffff;
+}
+.nav-links{
+width:80%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+list-style: none;
+padding-top: 15px;
+
+}
+
     </style>
   </head>
   <body>
@@ -98,5 +145,18 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script>
+      window.watsonAssistantChatOptions = {
+          integrationID: "398b1db7-fa7c-43e1-ad55-61ce488b01f9", // The ID of this integration.
+          region: "us-south", // The region your integration is hosted in.
+          serviceInstanceID: "91313015-efe9-482a-8d37-ef8a45fb5944", // The ID of your service instance.
+          onLoad: function(instance) { instance.render(); }
+        };
+      setTimeout(function(){
+        const t=document.createElement('script');
+        t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+        document.head.appendChild(t);
+      });
+    </script>
   </body>
 </html>

@@ -9,8 +9,8 @@ export default class Ourmenu extends Component {
                   <div className="row text-center"><h2>Our favorites</h2></div>
                   <div className="row">
                   <div className="col-sm-4">                  
-                      <img src="images/favorite1.png" className="img-responsive" style={{width: '100%'}} alt="Image" /><br/>
-                      <img src="images/favorite2.png" className="img-responsive" style={{width: '100%'}} alt="Image" /><br/>
+                      <img src="images/favorite1.png" className="img-responsive" style={{width: '100%'}} alt="" /><br/>
+                      <img src="images/favorite2.png" className="img-responsive" style={{width: '100%'}} alt="" /><br/>
                   </div>
                   <div className="col-sm-8"> 
                     <div className="row">
