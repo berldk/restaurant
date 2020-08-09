@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/alamaison/static/css/main.04e04f6a.chunk.css",
-    "main.js": "/alamaison/static/js/main.9885f65b.chunk.js",
-    "main.js.map": "/alamaison/static/js/main.9885f65b.chunk.js.map",
+    "main.js": "/alamaison/static/js/main.80c90972.chunk.js",
+    "main.js.map": "/alamaison/static/js/main.80c90972.chunk.js.map",
     "runtime-main.js": "/alamaison/static/js/runtime-main.51c08830.js",
     "runtime-main.js.map": "/alamaison/static/js/runtime-main.51c08830.js.map",
-    "static/js/2.9f4619ad.chunk.js": "/alamaison/static/js/2.9f4619ad.chunk.js",
-    "static/js/2.9f4619ad.chunk.js.map": "/alamaison/static/js/2.9f4619ad.chunk.js.map",
+    "static/js/2.50636072.chunk.js": "/alamaison/static/js/2.50636072.chunk.js",
+    "static/js/2.50636072.chunk.js.map": "/alamaison/static/js/2.50636072.chunk.js.map",
     "index.html": "/alamaison/index.html",
-    "precache-manifest.3ed3d89a30a374de1ed7496b04305fda.js": "/alamaison/precache-manifest.3ed3d89a30a374de1ed7496b04305fda.js",
+    "precache-manifest.c3c004de1c004a762b8125d6982c4633.js": "/alamaison/precache-manifest.c3c004de1c004a762b8125d6982c4633.js",
     "service-worker.js": "/alamaison/service-worker.js",
     "static/css/main.04e04f6a.chunk.css.map": "/alamaison/static/css/main.04e04f6a.chunk.css.map",
-    "static/js/2.9f4619ad.chunk.js.LICENSE.txt": "/alamaison/static/js/2.9f4619ad.chunk.js.LICENSE.txt"
+    "static/js/2.50636072.chunk.js.LICENSE.txt": "/alamaison/static/js/2.50636072.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.51c08830.js",
-    "static/js/2.9f4619ad.chunk.js",
+    "static/js/2.50636072.chunk.js",
     "static/css/main.04e04f6a.chunk.css",
-    "static/js/main.9885f65b.chunk.js"
+    "static/js/main.80c90972.chunk.js"
   ]
 }
