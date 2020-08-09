@@ -1,7 +1,7 @@
 import React from "react";
 import { Formik } from "formik";
-import axios from "axios";
-import * as Yup from "yup";
+/*import axios from "axios";
+import * as Yup from "yup";*/
 
 
  class Booking extends React.Component {
