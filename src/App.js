@@ -9,7 +9,6 @@ import Menu from './components/menu';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 
-
 class App extends Component {
   render() {
     return (
@@ -30,7 +29,4 @@ class App extends Component {
     );
   }
 }
-
-
-
 export default App;

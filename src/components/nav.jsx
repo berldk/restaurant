@@ -21,6 +21,7 @@ export default class Banner extends Component {
                 <Link to="/alamaison/story"><li>Our story</li></Link>
                 <Link to="/alamaison/contact"><li>Contact</li></Link>
                 <Link to="/alamaison/reservation"><li>Reservation</li></Link>
+               
               </ul>
              
             </div>
